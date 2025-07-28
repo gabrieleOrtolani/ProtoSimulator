@@ -1,0 +1,73 @@
+[2025-07-28 20:32:58,819][INFO][protosimulator] MessageHandler listening on 127.0.0.1:5001
+[2025-07-28 20:32:58,819][INFO][protosimulator] TCP MessageSender listening on 127.0.0.1:5000
+[2025-07-28 20:32:58,819][INFO][protosimulator] TCP MessageHandler listening on 127.0.0.1:5001
+[2025-07-28 20:32:58,820][INFO][protosimulator] ZMQ RequestHandler listening on 6000
+[2025-07-28 20:32:58,820][INFO][protosimulator] RequestHandler listening on ZMQ port 6000
+[2025-07-28 20:33:02,060][WARNING][protosimulator] TCPRequestHandler received unknown command.
+[2025-07-28 20:33:02,060][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:33:02,061][INFO][protosimulator] TCPRequestHandler sent ExampleMessage
+[2025-07-28 20:33:48,904][INFO][protosimulator] Received ZMQ action: set
+[2025-07-28 20:33:48,904][INFO][protosimulator] Set message for type ExampleMessage: {'text': 'Test via ZMQ', 'id': 123}
+[2025-07-28 20:33:48,905][INFO][protosimulator] Received ZMQ action: send
+[2025-07-28 20:33:48,905][INFO][protosimulator] Sent ExampleMessage as TCP client.
+[2025-07-28 20:33:48,905][WARNING][protosimulator] TCPRequestHandler received unknown command.
+[2025-07-28 20:33:48,906][INFO][protosimulator] Received ZMQ action: get
+[2025-07-28 20:33:48,907][INFO][protosimulator] Received ZMQ action: start_periodic_message
+[2025-07-28 20:33:48,907][INFO][protosimulator] Started periodic sender for ExampleMessage (every 2s)
+[2025-07-28 20:33:48,907][INFO][protosimulator] Sent ExampleMessage as TCP client.
+[2025-07-28 20:33:48,908][WARNING][protosimulator] TCPRequestHandler received unknown command.
+[2025-07-28 20:33:50,908][INFO][protosimulator] Sent ExampleMessage as TCP client.
+[2025-07-28 20:33:50,908][WARNING][protosimulator] TCPRequestHandler received unknown command.
+[2025-07-28 20:33:52,909][INFO][protosimulator] Sent ExampleMessage as TCP client.
+[2025-07-28 20:33:52,909][WARNING][protosimulator] TCPRequestHandler received unknown command.
+[2025-07-28 20:33:53,909][INFO][protosimulator] Received ZMQ action: stop_periodic_message
+[2025-07-28 20:33:53,909][INFO][protosimulator] Stopped periodic sender for ExampleMessage
+[2025-07-28 20:33:54,091][WARNING][protosimulator] TCPRequestHandler received unknown command.
+[2025-07-28 20:33:54,091][INFO][protosimulator] Sent ExampleMessage via existing connection.
+[2025-07-28 20:33:54,091][INFO][protosimulator] TCPRequestHandler sent ExampleMessage
+[2025-07-28 20:42:46,976][INFO][protosimulator] MessageServer listening on ('127.0.0.1', 5000)
+[2025-07-28 20:43:44,487][INFO][protosimulator] MessageServer listening on ('127.0.0.1', 5000)
+[2025-07-28 20:43:44,487][INFO][protosimulator] MessageServer listening on 127.0.0.1:5000
+[2025-07-28 20:44:06,203][INFO][protosimulator] MessageServer listening on ('127.0.0.1', 5000)
+[2025-07-28 20:44:06,203][INFO][protosimulator] MessageServer listening on 127.0.0.1:5000
+[2025-07-28 20:44:56,901][INFO][protosimulator] MessageServer listening on ('127.0.0.1', 5000)
+[2025-07-28 20:44:56,901][INFO][protosimulator] MessageServer listening on 127.0.0.1:5000
+[2025-07-28 20:44:56,901][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:44:56,901][INFO][protosimulator] PeriodicSender started for: ['ExampleMessage']
+[2025-07-28 20:44:56,901][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:44:56,901][INFO][protosimulator] Started PeriodicSender.
+[2025-07-28 20:44:58,902][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:44:58,902][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:00,903][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:45:00,903][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:02,903][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:45:02,903][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:04,903][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:45:04,903][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:06,904][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:45:06,904][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:08,904][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:45:08,905][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:10,661][INFO][protosimulator] Shutting down...
+[2025-07-28 20:45:10,905][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:45:10,905][WARNING][protosimulator] PeriodicSender: message ExampleMessage not sent (not set?)
+[2025-07-28 20:45:10,915][INFO][protosimulator] PeriodicSender stopped.
+[2025-07-28 20:46:39,826][INFO][protosimulator] MessageServer listening on ('127.0.0.1', 5000)
+[2025-07-28 20:46:39,826][INFO][protosimulator] MessageServer listening on 127.0.0.1:5000
+[2025-07-28 20:46:39,826][INFO][protosimulator] PeriodicSender started for: []
+[2025-07-28 20:46:39,827][INFO][protosimulator] Started PeriodicSender.
+[2025-07-28 20:46:45,391][INFO][protosimulator] Shutting down...
+[2025-07-28 20:46:45,834][INFO][protosimulator] PeriodicSender stopped.
+[2025-07-28 20:47:51,987][INFO][protosimulator] MessageServer listening on ('127.0.0.1', 5000)
+[2025-07-28 20:47:51,987][INFO][protosimulator] MessageServer listening on 127.0.0.1:5000
+[2025-07-28 20:47:51,987][INFO][protosimulator] PeriodicSender started for: []
+[2025-07-28 20:47:51,987][INFO][protosimulator] Started PeriodicSender.
+[2025-07-28 20:47:55,633][INFO][protosimulator] [SPECIFIC HANDLER] ExampleMessage! Testo: Messaggio TCP diretto, ID: 42
+[2025-07-28 20:47:55,633][INFO][protosimulator] Received and handled ExampleMessage from ('127.0.0.1', 39428)
+[2025-07-28 20:47:55,633][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:47:55,633][INFO][protosimulator] Sent ExampleMessage on request from ('127.0.0.1', 39430)
+[2025-07-28 20:48:24,432][INFO][protosimulator] [SPECIFIC HANDLER] ExampleMessage! Testo: Messaggio TCP diretto, ID: 42
+[2025-07-28 20:48:24,432][INFO][protosimulator] Received and handled ExampleMessage from ('127.0.0.1', 57132)
+[2025-07-28 20:48:24,432][WARNING][protosimulator] Message type 'ExampleMessage' not set; send aborted.
+[2025-07-28 20:48:24,433][INFO][protosimulator] Sent ExampleMessage on request from ('127.0.0.1', 57138)
+[2025-07-28 20:48:29,129][INFO][protosimulator] Shutting down...
