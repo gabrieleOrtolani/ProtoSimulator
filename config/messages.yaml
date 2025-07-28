@@ -1,0 +1,4 @@
+messages:
+  ExampleMessage:
+    type: ExampleMessage
+    description: Messaggio di esempio
